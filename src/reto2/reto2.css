@@ -1,0 +1,30 @@
+.buttons{
+    display: flex;
+    gap: 7px;
+}
+
+.chrono{
+    position: relative;    
+}
+
+.start,.stop,.reset{
+    font-weight: 600;
+    font-size: 12pt;
+    height: 40px;
+    width: 60px;
+    border: none;
+    cursor: pointer;
+}
+
+.start{
+    background-color: rgb(6, 73, 6);
+}
+
+.stop{
+    background-color: red;
+}
+
+.reset{
+    background-color: yellow;
+}
+

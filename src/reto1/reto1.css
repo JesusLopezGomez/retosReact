@@ -1,0 +1,15 @@
+.showHide{
+    background-color: rgb(88, 12, 160);
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 11pt;
+    font-weight: 600;  
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
