@@ -7,9 +7,9 @@
     font-weight: 600;  
 }
 
-/*.container{
+.container{
     display: flex;
     align-items: center;
     height: 100vh;
     gap: 20px;
-}*/
+}
