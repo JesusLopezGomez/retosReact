@@ -6,7 +6,7 @@
 
 body{
     background-color: #fff;
-}*/
+}
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 * {
@@ -32,9 +32,6 @@ input {
   display: flex;
   flex-direction: column;
 }
-/* .App > * {
-  margin: 10px;
-} */
 .container {
   width: 50vw;
   height: 30px;
@@ -58,4 +55,4 @@ input {
   position: absolute;
   transition: 1.5s ease 0.3s;
   z-index: 100;
-}
+}*/

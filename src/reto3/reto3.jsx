@@ -2,12 +2,12 @@ import { useState } from "react";
 import "./reto3.css";
 export function Reto3(){
     let [wordChange,setWordChange] = useState("");
-    let [words,setWords] = useState([]);
     let [liWords,setLiWords] = useState([]); 
 
     const removeWord = (e) => {
         let modList = [];
         liWords.forEach(li => {
+            console.log(li.props.children[0]);
             if(li.textContent !== e.target.parentNode.textContent){
                 modList.push(li);
             }
@@ -20,9 +20,7 @@ export function Reto3(){
     }
     
     const addWord = () => {
-        console.log(wordChange);
-        setWords([...words, wordChange]);
-        setLiWords([...liWords, <li key={words.length}>{wordChange}<strong className="x" onClick={removeWord}> X </strong></li>]);
+        setLiWords([...liWords, <li key={liWords.length} id={liWords.length}>{wordChange}<strong className="x" onClick={removeWord}> X </strong></li>]);
     }
     
     return(
